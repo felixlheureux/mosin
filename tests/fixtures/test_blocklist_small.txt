@@ -1,0 +1,11 @@
+# Small test blocklist for development
+0.0.0.0 ads.example.com
+0.0.0.0 tracker.example.com
+0.0.0.0 doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 analytics.google.com
+0.0.0.0 pixel.facebook.com
+0.0.0.0 ads.yahoo.com
+0.0.0.0 tracking.example.org

@@ -1,0 +1,19 @@
+[package]
+name = "mosin"
+version = "0.1.0"
+edition = "2024"
+description = "System-wide ad blocker for Linux — DNS sinkhole with DoH bypass prevention"
+license = "MIT"
+readme = "README.md"
+keywords = ["adblock", "dns", "sinkhole", "firewall", "tun"]
+categories = ["network-programming", "command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.5.57", features = ["derive"] }
+tokio = { version = "1.49.0", features = ["full"] }
+tun = { version = "0.8", features = ["async"] }
+etherparse = "0.19"
+dns-parser = "0.8.0"
+ip_network_table = "0.2"
+ip_network = "0.4"
+tls-parser = "0.12"

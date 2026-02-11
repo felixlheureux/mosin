@@ -1,0 +1,20 @@
+# Build artifacts
+/target
+
+# Downloaded blocklists (user-specific, not committed)
+/lists
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+tests/fixtures/blocklist.txt
+tests/fixtures/doh_domains.txt
+tests/fixtures/doh_ips.txt
+tests/fixtures/test_blocklist.txt
